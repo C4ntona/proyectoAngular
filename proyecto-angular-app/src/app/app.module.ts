@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './componentes/menu/menu.component';
-
+import { AuthComponent } from './auth/auth.component';
+import { FormRegistroComponent } from './componentes/form-registro/form-registro.component';
+// import { NgbModule } from "@ng-boot";
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    AuthComponent,
+    FormRegistroComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // NgbModulek
+
   ],
   providers: [],
   bootstrap: [AppComponent]
